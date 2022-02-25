@@ -1,0 +1,61 @@
+{
+    "name": "Midi",
+    "maps": [
+        {
+            "name": "Midi Input",
+            "id": "7fd22677-479a-4de1-9cd1-d22882c1cc7b",
+            "actions": [
+                {
+                    "name": "CNote",
+                    "type": "Button",
+                    "id": "5583225d-4cf1-43b5-8b97-c613b478d114",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d4778aee-fda4-4b57-be88-b972eb4a4da9",
+                    "path": "<MidiDevice>/note048",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CNote",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "111eeaf5-7241-48b7-bb96-b839911c13b5",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "All",
+                    "action": "CNote",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "All",
+            "bindingGroup": "All",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<MidiDevice>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
